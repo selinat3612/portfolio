@@ -1,5 +1,6 @@
 .App {
-  text-align: center;
+  text-align: left;
+  padding: 10px;
 }
 
 .App-logo {
@@ -36,3 +37,17 @@
     transform: rotate(360deg);
   }
 }
+
+#heading{
+  color: #FA573E;
+}
+
+#heading1{
+  padding-top: 10%;
+  color: #FA573E;
+}
+
+#heading2{
+  color: #FFADA1;
+}
+
