@@ -1,0 +1,73 @@
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+.me {
+  width: 650px;
+  height: auto;
+}
+
+#home {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding-left: 50%,
+}
+
+#experience{
+  height: 110vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #8e7cc3;
+}
+
+#design{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.homeText {
+  margin-left: 11%; /* Adjust the value as needed */
+  margin-top: 10%;
+}
+
+.header {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 5%;
+}
+.header2 {
+  color: #8e7cc3;
+  /* text-align: center;
+  margin-bottom: 5%; */
+}
+
+.wave {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.timeline {
+  margin-top: 5%;
+  margin-left: -50%;
+}
+
+#aboutMe p {
+  margin-bottom: 1%;
+  color: #6B7280;
+}
+
+#blurb p {
+  color: #6B7280;
+}
