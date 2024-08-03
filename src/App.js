@@ -1,18 +1,3 @@
-// import React from 'react';
-// import { Routes, Route, Link } from 'react-router-dom'; // Import routing components
-// import AmazonInternship from './AmazonInternship'; // Import your page component
-
-// const App = () => (
-//   <Router>
-//     <Routes>
-//       <Route path="/" element={<MainContent />} />
-//       <Route path="/amazon" element={<AmazonInternship />} />
-//     </Routes>
-//   </Router>
-// );
-
-// export default App;
-
 import React, { useState } from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 import { Navbar, Nav } from 'react-bootstrap';
