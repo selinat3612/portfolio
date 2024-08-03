@@ -1,7 +1,7 @@
 {
   "name": "my-react-app",
   "version": "0.1.0",
-  "homepage": "https://selinat3612.github.io",
+  "homepage": "https://selinat3612.github.io/portfolio/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.12.0",
