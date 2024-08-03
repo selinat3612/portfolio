@@ -1,0 +1,11 @@
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 10px; /* Space between images */
+}
+
+.photo-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
