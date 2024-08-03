@@ -1,16 +1,41 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.f855e6bc.css",
-    "main.js": "/portfolio/static/js/main.a31873aa.js",
-    "static/js/453.ed3810f9.chunk.js": "/portfolio/static/js/453.ed3810f9.chunk.js",
-    "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/portfolio/static/css/main.bd2c3fd0.css",
+    "main.js": "/portfolio/static/js/main.0d772a50.js",
+    "static/media/casestudy.jpg": "/portfolio/static/media/casestudy.53cd2182c0ae6d21b8df.jpg",
+    "static/media/SpanishUnessay.jpg": "/portfolio/static/media/SpanishUnessay.22927c5af387dcb6523d.jpg",
+    "static/media/TranPosterProject.jpg": "/portfolio/static/media/TranPosterProject.21e3147913f5995aedff.jpg",
+    "static/media/greekweek2024.png": "/portfolio/static/media/greekweek2024.376c3c949fe3dff442d6.png",
+    "static/media/moodboard.png": "/portfolio/static/media/moodboard.95e70f1512e8f5c8f307.png",
+    "static/media/menu.png": "/portfolio/static/media/menu.3f8062998d5d664f50aa.png",
+    "static/media/LandingPage1.png": "/portfolio/static/media/LandingPage1.4aedf2293d8c2d3bd72d.png",
+    "static/media/greekweek2023.png": "/portfolio/static/media/greekweek2023.368ee1b0ea18074c578d.png",
+    "static/media/Data.png": "/portfolio/static/media/Data.07e44999038ff778591f.png",
+    "static/media/me.jpg": "/portfolio/static/media/me.3add97b5f4704960f533.jpg",
+    "static/media/logicloom.png": "/portfolio/static/media/logicloom.f7ddb74dffbed3f6aa48.png",
+    "static/media/LandingPage2.png": "/portfolio/static/media/LandingPage2.2bd3e0c37819c22d6824.png",
+    "static/media/cf2.png": "/portfolio/static/media/cf2.1c7c2e1eebf06b3d5fcc.png",
+    "static/media/analysis.png": "/portfolio/static/media/analysis.39db279d15d0b160b241.png",
+    "static/media/cf1.png": "/portfolio/static/media/cf1.0ad69c86fd794c77e5bc.png",
+    "static/media/WPI_logo.svg.png": "/portfolio/static/media/WPI_logo.svg.6fae2512e50e16a482dc.png",
+    "static/media/logic7.png": "/portfolio/static/media/logic7.6da16d4ba66817d53483.png",
+    "static/media/logic4.png": "/portfolio/static/media/logic4.76f42878e3e0dad8cde3.png",
+    "static/media/logic2.png": "/portfolio/static/media/logic2.9254965d0a9dd5fae8a7.png",
+    "static/media/logic6.png": "/portfolio/static/media/logic6.83d18fd47ca05272c2d7.png",
+    "static/media/logic5.png": "/portfolio/static/media/logic5.60a7c38eebb9b5d19b7b.png",
+    "static/media/logic3.png": "/portfolio/static/media/logic3.94acfec526190af85093.png",
+    "static/media/logic1.png": "/portfolio/static/media/logic1.ee4196f2f16b98663dd9.png",
+    "static/media/libertymutual.png": "/portfolio/static/media/libertymutual.fc00cea5cc62418d779f.png",
+    "static/media/logic8.png": "/portfolio/static/media/logic8.e22f8a24c82c004168d2.png",
+    "static/media/CrashForcesLogo1.png": "/portfolio/static/media/CrashForcesLogo1.4ede497fe0cae5b47b53.png",
+    "static/media/outlook.png": "/portfolio/static/media/outlook.3e3141a467b7bada7140.png",
+    "static/media/amazon.png": "/portfolio/static/media/amazon.575f4d399149bbb894cc.png",
     "index.html": "/portfolio/index.html",
-    "main.f855e6bc.css.map": "/portfolio/static/css/main.f855e6bc.css.map",
-    "main.a31873aa.js.map": "/portfolio/static/js/main.a31873aa.js.map",
-    "453.ed3810f9.chunk.js.map": "/portfolio/static/js/453.ed3810f9.chunk.js.map"
+    "main.bd2c3fd0.css.map": "/portfolio/static/css/main.bd2c3fd0.css.map",
+    "main.0d772a50.js.map": "/portfolio/static/js/main.0d772a50.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.a31873aa.js"
+    "static/css/main.bd2c3fd0.css",
+    "static/js/main.0d772a50.js"
   ]
 }
