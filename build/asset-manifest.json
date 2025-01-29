@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.25d3005b.css",
-    "main.js": "/portfolio/static/js/main.ece2282f.js",
+    "main.css": "/portfolio/static/css/main.a2d5165b.css",
+    "main.js": "/portfolio/static/js/main.0547b84e.js",
     "static/media/demo.mov": "/portfolio/static/media/demo.14a0dfb85c63a80ac26b.mov",
     "static/media/demo2.mp4": "/portfolio/static/media/demo2.735e0551f8da914327b9.mp4",
     "static/media/casestudy.jpg": "/portfolio/static/media/casestudy.53cd2182c0ae6d21b8df.jpg",
@@ -58,11 +58,11 @@
     "static/media/optum.png": "/portfolio/static/media/optum.14b2501bfa21ef529b66.png",
     "static/media/amazon.png": "/portfolio/static/media/amazon.575f4d399149bbb894cc.png",
     "index.html": "/portfolio/index.html",
-    "main.25d3005b.css.map": "/portfolio/static/css/main.25d3005b.css.map",
-    "main.ece2282f.js.map": "/portfolio/static/js/main.ece2282f.js.map"
+    "main.a2d5165b.css.map": "/portfolio/static/css/main.a2d5165b.css.map",
+    "main.0547b84e.js.map": "/portfolio/static/js/main.0547b84e.js.map"
   },
   "entrypoints": [
-    "static/css/main.25d3005b.css",
-    "static/js/main.ece2282f.js"
+    "static/css/main.a2d5165b.css",
+    "static/js/main.0547b84e.js"
   ]
 }

@@ -9,7 +9,7 @@ const ProtectedRoute = ({ element: Component, ...rest }) => {
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
 
-    const correctPassword = 'selina2024'; // Set your desired password here
+    const correctPassword = 'selina2025'; // Set your desired password here
 
     const handlePasswordChange = (e) => {
         setPassword(e.target.value);
