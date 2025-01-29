@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
+import { Container, Row, Col } from 'react-bootstrap';
 import { Navbar, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css'; // Assuming you have a separate CSS file for App component
@@ -9,6 +10,7 @@ import Crashforces from './Crashforces';
 import OptumInternship from './Optum';
 import LibertyMutual from './LibertyMutual';
 import Outlook from './Outlook';
+import PlaySite from './Play';
 import LogicLoom from './LogicLoom';
 import Gallery from './Gallery';
 import me from './imgs/me.jpg';
@@ -21,26 +23,35 @@ import Logic from './imgs/logicloom.png';
 import { Card, CardContent, CardMedia, Typography, CardActionArea } from '@mui/material';
 import NavbarComponent from './NavbarComponent'; 
 import PasswordProtect from './PasswordProtect';
+import MenuPage from './Menu';
+import PosterPage from './Poster';
+import GW23 from './GreekWeek23';
+import GW24 from './GreekWeek24';
+import UnessayPage from './Unessay';
+import CrashforcesPage from './CF';
+
 
 const MainContent = () => {
-
   return (
     <div>
-       <NavbarComponent />
       <div id="home" className="section">
-        <div className="homeText">
-          <h1 className="header2">Hey there! I'm Selina</h1>
-          <div id="blurb" style={{ marginRight: '65%', marginTop: '2%' }}>
-            <p>A fourth-year human-computer interaction student at WPI, I have cultivated a diverse skillset that blends design and software skills through my interdisciplinary major. My background allows me to bridge the gap between design and development, leveraging innovative design skills to create user-centered solutions.</p>
-            <div id="aboutMe">
-              <p>In my free time, you can find me:</p>
-              <p>• Trying out new recipes to cook and bake</p>
-              <p>• Exploring new coffee shops ☕️</p>
-              <p>• Scrapbooking</p>
-              <p>• Spending time with family and friends</p>
+        <div className="mainPage">
+          <div style={{marginTop: '10%'}}>
+            <h1 className="header2" style={{marginLeft: '20%'}}>Hey there! I'm Selina</h1>
+            <div id="blurb" style={{ marginRight: '30%', marginTop: '5%', marginLeft: '20%' }}>
+              <p className="paragraph">A fourth-year human-computer interaction student at WPI, I have cultivated a diverse skillset that blends design and software skills through my interdisciplinary major. My background allows me to bridge the gap between design and development, leveraging innovative design skills to create user-centered solutions.</p>
+              <div id="aboutMe" className="paragraph">
+                <p>In my free time, you can find me:</p>
+                <p>• Trying out new recipes to cook and bake</p>
+                <p>• Exploring new coffee shops ☕️</p>
+                <p>• Scrapbooking</p>
+                <p>• Spending time with family and friends</p>
+              </div>
             </div>
           </div>
-          <img src={me} className="me" style={{ marginLeft: '45%', marginTop: '-34%' }} alt="Selina"></img>
+          <div className="me">
+            <img src={me} className="me" style={{marginLeft: '-25%', marginTop: '5%'}} alt="Selina"></img>
+          </div>
         </div>
         <div className="wave">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -48,65 +59,82 @@ const MainContent = () => {
           </svg>
         </div>
       </div>
-      <div id="experience" className="section">
-        <h1 className="header">Experience</h1>
-        <div style={{ display: 'flex', gap: '5%' }}>
-          <Card sx={{ width: 400 }}>
-            <CardActionArea component={Link} to="/amazon">
-              <CardMedia
-                component="img"
-                height="170"
-                image={AmazonRoboticsImage}
-                alt="amazon robotics"
-              />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                  Amazon - UX Intern
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  Jun - Aug 2024
-                </Typography>
-              </CardContent>
-            </CardActionArea>
+      <div className="experience" style={{marginTop: '-0.2%'}}>
+        <h1 className="headerWork">Work</h1>
+        <div style={{ display: 'flex', gap: '5%', justifyContent: 'center', marginTop: '2%' }}>
+          <Row xs={1} md={2} lg={3} className="g-4">
+          <Col>
+            <Card>
+              <Card sx={{ width: 400 }}>
+                <CardActionArea component={Link} to="/amazon">
+                  <CardMedia
+                    component="img"
+                    height="170"
+                    image={AmazonRoboticsImage}
+                    alt="amazon robotics"
+                  />
+                  <CardContent>
+                    <Typography gutterBottom variant="h5" component="div">
+                      Amazon - UX Intern
+                    </Typography>
+                    <Typography variant="body2" color="text.secondary">
+                      Jun - Aug 2024
+                    </Typography>
+                  </CardContent>
+                </CardActionArea>
+              </Card>
+            </Card>
+          </Col>
+          <Col>
+            <Card>
+            <Card sx={{ width: 400 }}>
+              <CardActionArea component={Link} to="/crashforces">
+                <CardMedia
+                  component="img"
+                  height="170"
+                  image={CrashForces}
+                  alt="crash forces"
+                />
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="div">
+                    Startup - UX Designer
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary">
+                    Oct 2023 - March 2024
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+            </Card>
           </Card>
-          <Card sx={{ width: 400 }}>
-            <CardActionArea component={Link} to="/crashforces">
-              <CardMedia
-                component="img"
-                height="170"
-                image={CrashForces}
-                alt="crash forces"
-              />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                  Startup - UX Designer
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  Oct 2023 - March 2024
-                </Typography>
-              </CardContent>
-            </CardActionArea>
-          </Card>
-          <Card sx={{ width: 400 }}>
-            <CardActionArea component={Link} to="/optum">
-              <CardMedia
-                component="img"
-                height="170"
-                image={optumimg}
-                alt="optum"
-              />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                  Optum - SWE Intern
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  Jun - Aug 2023
-                </Typography>
-              </CardContent>
-            </CardActionArea>
-          </Card>
+          </Col>
+          <Col>
+            <Card>
+            <Card sx={{ width: 400 }}>
+              <CardActionArea component={Link} to="/optum">
+                <CardMedia
+                  component="img"
+                  height="170"
+                  image={optumimg}
+                  alt="optum"
+                />
+                <CardContent>
+                  <Typography gutterBottom variant="h5" component="div">
+                    Optum - SWE Intern
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary">
+                    Jun - Aug 2023
+                  </Typography>
+                </CardContent>
+              </CardActionArea>
+            </Card>
+            </Card>
+          </Col>
+            </Row>
         </div>
-        <div style={{ display: 'flex', gap: '5%', marginTop: '3%' }}>
+        <div style={{ display: 'flex', gap: '5%', marginTop: '3%', justifyContent: 'center', paddingBottom: '5%' }}>
+        <Row xs={1} md={2} lg={3} className="g-4">
+        <Col>
+          <Card>
           <Card sx={{ width: 400 }}>
             <CardActionArea  component={Link} to="/liberty">
               <CardMedia
@@ -125,6 +153,10 @@ const MainContent = () => {
               </CardContent>
             </CardActionArea>
           </Card>
+          </Card>
+        </Col>
+        <Col>
+        <Card>
           <Card sx={{ width: 400 }}>
             <CardActionArea component={Link} to="/logicloom">
               <CardMedia
@@ -143,6 +175,10 @@ const MainContent = () => {
               </CardContent>
             </CardActionArea>
           </Card>
+          </Card>
+        </Col>
+        <Col>
+        <Card>
           <Card sx={{ width: 400 }}>
             <CardActionArea component={Link} to="/outlook">
               <CardMedia
@@ -161,26 +197,34 @@ const MainContent = () => {
               </CardContent>
             </CardActionArea>
           </Card>
+          </Card>
+          </Col>
+          </Row>
         </div>
-      </div>
-      <div id="design" className="section">
-        <h1 style={{ paddingBottom: '2%' }}>Design</h1>
-        <Gallery />
       </div>
     </div>
   );
 };
 
 const App = () => (
+  <>
+  <NavbarComponent />
   <Routes>
     <Route path="/" element={<MainContent />} />
     <Route path="/amazon" element={<PasswordProtect element={AmazonInternship} />} />
-    <Route path="/crashforces" element={<PasswordProtect element={CrashForces} />}/>
+    <Route path="/crashforces" element={<PasswordProtect element={CrashForces} />} />
     <Route path="/optum" element={<OptumInternship />} />
     <Route path="/liberty" element={<LibertyMutual />} />
     <Route path="/logicloom" element={<LogicLoom />} />
     <Route path="/outlook" element={<Outlook />} />
-  </Routes>
+    <Route path="/play" element={<PlaySite />} />
+    <Route path="/menu" element={<MenuPage />} />
+    <Route path="/poster" element={<PosterPage />} />
+    <Route path="/gw23" element={<GW23 />} />
+    <Route path="/gw24" element={<GW24 />} />
+    <Route path="/unessay" element={<UnessayPage />} />
+    <Route path="/crashforcespage" element={<CrashforcesPage />} />
+  </Routes></>
 );
 
 export default App;

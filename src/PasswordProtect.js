@@ -9,7 +9,7 @@ const ProtectedRoute = ({ element: Component, ...rest }) => {
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
 
-    const correctPassword = 'yourpassword'; // Set your desired password here
+    const correctPassword = 'selina2024'; // Set your desired password here
 
     const handlePasswordChange = (e) => {
         setPassword(e.target.value);
@@ -37,7 +37,7 @@ const ProtectedRoute = ({ element: Component, ...rest }) => {
                             onChange={handlePasswordChange}
                             placeholder="Password"
                         />
-                        <button type="submit">Show me the deats!</button>
+                        <button type="submit">Show me the details!</button>
                     </form>
                     {error && <p style={{ color: 'red' }}>{error}</p>}
                 </div>

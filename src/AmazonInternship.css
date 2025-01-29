@@ -1,52 +1,299 @@
 .header-image-container {
-    position: relative;
-    width: 100%;
-    height: 50vh; /* Adjust height as needed */
-    overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  /* Adjust height as needed */
+  overflow: hidden;
+}
+
+.gw {
+  cursor: zoom-in;
+  width: 500px;
+  height: 450px;
+}
+
+.gw2{
+  cursor: zoom-in;
+  width: 500px;
+  height: 300px; 
+}
+
+.art {
+  display: flex;
+  flex-direction: row;
+  gap: 10%;
+  margin-top: 10%;
+}
+
+.cf {
+  cursor: zoom-in;
+  width: 450px;
+  height: 450px;
+  margin-top: -20%;
+}
+
+.header-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.unessay {
+  cursor: zoom-in;
+width: 550px;
+height: 370px;
+}
+
+.neclas {
+  cursor: zoom-in;
+  width: 530px;
+  height: 330px;
+}
+
+.header-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Optional: Add overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.internship-container {
+  /* Adjust as needed */
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.details-section {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3%;
+}
+
+.detail-item h2,
+.overview-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.detail-item p,
+.overview-section p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.mia {
+  cursor: zoom-in;
+  width: 500px;
+  height: 300px;
+}
+
+.recog {
+  cursor: zoom-in;
+  display: flex;
+  flex-direction: row;
+}
+
+.overview-section {
+  margin-top: 5%;
+  text-align: left;
+}
+
+.io {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+/* Ensure this targets the correct image class */
+.ReactGridGallery_tile img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.ReactGridGallery_tile:hover img {
+  transform: scale(1.05); /* Enlarges the image on hover */
+}
+
+.imgmobile {
+  display: flex;
+  flex-direction: row;
+  gap: 1%;
+  align-items: center;
+}
+
+.playsite {
+  padding: 10%
+}
+
+/* Optional: Styles for the overlay */
+.custom-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* Show overlay on hover */
+.react-grid-gallery .ReactGridGallery_tile:hover .custom-overlay {
+  opacity: 1;
+}
+
+.enlarge {
+  cursor: zoom-in;
+  width: 500px;
+  height: 600px;
+}
+
+.io2 {
+  margin-top: 5%;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 10%;
+}
+
+.poster {
+  cursor: zoom-in;
+  width: 500px;
+  height: 350px;
+}
+
+.outlook {
+  width: 80%;
+  margin-left: 10%;
+  margin-top: -3%;
+}
+
+.imgstyle {
+  width: 50%;
+  height: 50%
+}
+
+@media (max-width: 768px) {
+  .body1 {
+    margin-top: 10%;
   }
-  
-  .header-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+
+  .style {
+    margin-top: 5%;
   }
-  
-  .header-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5); /* Optional: Add overlay */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-  }
-  
-  .internship-container {
-    margin-top: -5%; /* Adjust as needed */
-    padding: 10%;
-  }
-  
+
   .details-section {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    margin-bottom: 3%;
+  }
+
+  .internship-container {
+    margin-top: -5%;
+    /* Adjust as needed */
+    padding-left: 7%;
+    padding-right: 7%;
+  }
+
+  .playsite {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+
+  .outlook {
+    width: 100%;
+    margin-top: -3%;
+    margin-left: 0%;
+  }  
+  
+  .art {
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    margin-top: 25%;
+  }
+
+  .enlarge {
+    cursor: zoom-in;
+    width: 300px;
+    height: 400px;
+  }
+
+  .poster {
+    cursor: zoom-in;
+    width: 340px;
+    height: 240px;
+  }
+
+  .unessay {
+    cursor: zoom-in;
+    width: 350px;
+    height: 230px;
+  }
+
+  .recog {
+    cursor: zoom-in;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mia {
+    cursor: zoom-in;
+    width: 300px;
+    height: 200px;
+  }
+
+  .neclas {
+    cursor: zoom-in;
+    width: 280px;
+    height: 200px;
+  }
+
+  .cf {
+    cursor: zoom-in;
+    width: 250px;
+    height: 250px;
+    margin-top: 10%;
+  }
+
+  .gw {
+    cursor: zoom-in;
+    width: 300px;
+    height: 300px;
+  }
+
+  .gw2{
+    cursor: zoom-in;
+    width: 350px;
+    height: 270px; 
+  }
+
+  .io {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .io2 {
+    margin-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 10%;
+  }
+
+  .imgmobile {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .imgstyle {
+    width: 100%;
+    height: 100%
   }
   
-  .detail-item h2, .overview-section h2 {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  .detail-item p, .overview-section p {
-    font-size: 1rem;
-    margin-bottom: 1rem;
-  }
-  
-  .overview-section {
-    margin-top: 5%;
-    text-align: left;
-  }
-  
+}

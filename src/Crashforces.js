@@ -1,12 +1,17 @@
 // AmazonInternship.js
-import React from 'react';
+import React, {useEffect} from 'react';
 import NavbarComponent from './NavbarComponent';
 import CrashForces from './imgs/CrashForcesLogo1.png';
 import cf1 from './imgs/cf1.png';
 import cf2 from './imgs/cf2.png';
 import './AmazonInternship.css';
 
-const Crashforces = () => (
+const Crashforces = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  return (
   <div>
     <NavbarComponent />
     {/* <div style={{}}>
@@ -66,5 +71,5 @@ const Crashforces = () => (
       </div>
   </div>
 );
-
+};
 export default Crashforces;

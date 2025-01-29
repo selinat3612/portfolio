@@ -9,6 +9,11 @@
   pointer-events: none;
 }
 
+.experience {
+   background-color: #8e7cc3;
+   margin: 0 auto;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -24,6 +29,11 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.headerWork {
+  color: white;
+  text-align: center;
 }
 
 .App-link {
@@ -52,6 +62,99 @@
   color: #FFADA1;
 }
 
-.container{
+.mainPage {
+  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+}
+
+.navbar {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.container-fluid {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+body, html {
+  overflow-x: hidden;
+}
+
+
+@media (max-width: 768px) {
+  .homeText {
+    margin-right: 2%; /* Adjust text margins for smaller screens */
+    margin-left: 2%;
+  }
+
+  img.me {
+    width: 60%; /* Adjust image width */
+  }
+
+  .me {
+    margin-left: 38%;
+    margin-top: -5%;
+  }
+
+  .mainPage {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    margin-left: 20%
+  }
+
+  .paragraph {
+    font-size: 12px;
+  }
+
+  .header {
+    font-size: 24px; /* Reduce the header size */
+  }
+
+  .card {
+    width: 60%; /* Set the card width to 90% on mobile */
+    margin: 0 auto; /* Center the card on mobile */
+  }
   
+  /* You can also adjust the column layout */
+  .experience {
+    padding-left: 2%; /* Reset padding on smaller screens */
+    padding-right: 2%; /* Reset padding on smaller screens */
+    background-color: #FFFFFF;
+  }
+
+  .section {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center align for smaller screens */
+  }
+
+  .navbar {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .navbar-collapse {
+    justify-content: space-between; /* Ensure spacing between brand and nav links */
+  }
+
+  .navbar-brand {
+    margin-left: 0; /* Reset the brand's margin for mobile */
+  }
+
+  .ml-auto {
+    margin-left: 0; /* Reset left margin on mobile */
+  }
+
+  .wave {
+    display: none;
+  }
+
+  .headerWork{
+    color: #8e7cc3;
+    margin-bottom: 10%;
+  }
+
 }
