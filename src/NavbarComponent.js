@@ -25,7 +25,7 @@ const NavbarComponent = () => {
     <>
       <Navbar bg="light" variant="light" expand="lg" fixed="top" onSelect={handleSelect}>
         <div className="container-fluid">
-          <Navbar.Brand as={Link} to="/" onClick={handleBrandClick} eventKey="brand" style={{ marginLeft: '10%' }}>
+          <Navbar.Brand as={Link} to="/#homePage" onClick={handleBrandClick} eventKey="brand" style={{ marginLeft: '10%' }}>
             Selina Tran
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

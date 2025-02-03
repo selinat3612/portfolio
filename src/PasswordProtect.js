@@ -31,13 +31,15 @@ const ProtectedRoute = ({ element: Component, ...rest }) => {
                 <div className="password-form">
                     <h2 style={{marginTop: '1%', marginBottom: '3%'}}> Have the password?</h2>
                     <form onSubmit={handlePasswordSubmit}>
+                        <div style={{display: 'flex', gap: '2%'}}>
                         <input
                             type="password"
                             value={password}
                             onChange={handlePasswordChange}
                             placeholder="Password"
                         />
-                        <button type="submit">Show me the details!</button>
+                        <button type="submit">Show me!</button>
+                        </div>
                     </form>
                     {error && <p style={{ color: 'red' }}>{error}</p>}
                 </div>

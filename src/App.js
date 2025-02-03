@@ -3,7 +3,7 @@ import { Routes, Route, Link } from 'react-router-dom';
 import { Container, Row, Col } from 'react-bootstrap';
 import { Navbar, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './App.css'; // Assuming you have a separate CSS file for App component
+import './App.css'; 
 import EducationTimeline from './EducationTimeline';
 import AmazonInternship from './AmazonInternship';
 import Crashforces from './Crashforces';
@@ -34,11 +34,11 @@ import CrashforcesPage from './CF';
 const MainContent = () => {
   return (
     <div>
-      <div id="home" className="section">
+      <div id="homePage" className="homePage">
         <div className="mainPage">
-          <div style={{marginTop: '10%'}}>
-            <h1 className="header2" style={{marginLeft: '20%'}}>Hey there! I'm Selina</h1>
-            <div id="blurb" style={{ marginRight: '30%', marginTop: '5%', marginLeft: '20%' }}>
+          <div style={{marginTop: '10%', padding: '5%'}}>
+            <h1 className="header2" style={{}}>Hey there! I'm Selina</h1>
+            <div id="blurb" style={{ marginTop: '5%'}}>
               <p className="paragraph">A fourth-year human-computer interaction student at WPI, I have cultivated a diverse skillset that blends design and software skills through my interdisciplinary major. My background allows me to bridge the gap between design and development, leveraging innovative design skills to create user-centered solutions.</p>
               <div id="aboutMe" className="paragraph">
                 <p>In my free time, you can find me:</p>
@@ -47,20 +47,41 @@ const MainContent = () => {
                 <p>• Scrapbooking</p>
                 <p>• Spending time with family and friends</p>
               </div>
+              <div style={{marginTop: '5%', display: 'flex', gap: '10px'}}>
+                <div>
+                <button
+                  onClick={(e) => {
+                    e.preventDefault(); // Prevents default action
+                    const experienceSection = document.getElementById("experience");
+                    if (experienceSection) {
+                      experienceSection.scrollIntoView({ behavior: "smooth" });
+                    }
+                  }}
+                  className="workButton"
+                >
+                  See my work ↓
+                </button>
+                </div>
+                <div>
+                  <Link to="/play" className="playButton">
+                  Fun
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
           <div className="me">
-            <img src={me} className="me" style={{marginLeft: '-25%', marginTop: '5%'}} alt="Selina"></img>
+            <img src={me} className="me" style={{marginTop: '5%'}} alt="Selina"></img>
           </div>
         </div>
-        <div className="wave">
+        {/* <div className="wave">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <path fill="#8e7cc3" fillOpacity="1" d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
           </svg>
-        </div>
+        </div> */}
       </div>
-      <div className="experience" style={{marginTop: '-0.2%'}}>
-        <h1 className="headerWork">Work</h1>
+      <div id="experience" className="experience" style={{marginTop: '5%', padding: '5%'}}>
+        <h1 className="headerWork" style={{marginTop: '5%'}}>Work</h1>
         <div style={{ display: 'flex', gap: '5%', justifyContent: 'center', marginTop: '2%' }}>
           <Row xs={1} md={2} lg={3} className="g-4">
           <Col>
