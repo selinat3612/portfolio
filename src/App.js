@@ -29,7 +29,7 @@ import GW23 from './GreekWeek23';
 import GW24 from './GreekWeek24';
 import UnessayPage from './Unessay';
 import CrashforcesPage from './CF';
-
+import logo2 from './imgs/logo2.png';
 
 const MainContent = () => {
   return (
@@ -223,6 +223,11 @@ const MainContent = () => {
           </Row>
         </div>
       </div>
+      <footer>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100px' }}>
+          <img src={logo2} style={{ width: '5%' }} alt="logo" />
+        </div>
+      </footer>
     </div>
   );
 };

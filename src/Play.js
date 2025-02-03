@@ -15,6 +15,7 @@ import GW23 from './GreekWeek23';
 import GW24 from './GreekWeek24';
 import UnessayPage from './Unessay';
 import CrashforcesPage from './CF';
+import logo2 from './imgs/logo2.png';
 
 const PlaySite = () => {
   const navigate = useNavigate();
@@ -83,6 +84,11 @@ const PlaySite = () => {
           <Gallery images={row2} rowHeight={400} enableImageSelection={false} onClick={handleClick}/>
         </div>
       </div>
+            <footer>
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100px' }}>
+                <img src={logo2} style={{ width: '5%' }} alt="logo" />
+              </div>
+            </footer>
     </div>
   );
 };
