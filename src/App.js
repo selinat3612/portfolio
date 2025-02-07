@@ -8,6 +8,7 @@ import EducationTimeline from './EducationTimeline';
 import AmazonInternship from './AmazonInternship';
 import Crashforces from './Crashforces';
 import OptumInternship from './Optum';
+import WorkdayProject from './Workday';
 import LibertyMutual from './LibertyMutual';
 import Outlook from './Outlook';
 import PlaySite from './Play';
@@ -15,6 +16,7 @@ import LogicLoom from './LogicLoom';
 import Gallery from './Gallery';
 import me from './imgs/me.jpg';
 import AmazonRoboticsImage from './imgs/amazon.png';
+import WorkdayImage from './imgs/workday.png';
 import CrashForces from './imgs/CrashForcesLogo1.png';
 import optumimg from './imgs/optum.png';
 import Liberty from './imgs/libertymutual.png';
@@ -80,154 +82,75 @@ const MainContent = () => {
           </svg>
         </div> */}
       </div>
-      <div id="experience" className="experience" style={{marginTop: '5%', padding: '5%'}}>
-        <h1 className="headerWork" style={{marginTop: '5%'}}>Work</h1>
-        <div style={{ display: 'flex', gap: '5%', justifyContent: 'center', marginTop: '2%' }}>
-          <Row xs={1} md={2} lg={3} className="g-4">
-          <Col>
-            <Card>
-              <Card sx={{ width: 400 }}>
-                <CardActionArea component={Link} to="/amazon">
-                  <CardMedia
-                    component="img"
-                    height="170"
-                    image={AmazonRoboticsImage}
-                    alt="amazon robotics"
-                  />
+      <div id="experience" className="experience" style={{marginTop: '5%'}}>
+        <h1 className="style" style={{}}>Work</h1>
+        <h3 style={{ textAlign: 'center', fontWeight: 'lighter', marginBottom: '5%' }}>
+          UX Design and Internship Experience
+        </h3>
+        <Row className="g-4">
+          {[
+            {
+              link: "/workday",
+              image: WorkdayImage,
+              title: "Workday - UI Course Project",
+              date: "Jan - Feb 2025",
+            },
+            {
+              link: "/amazon",
+              image: AmazonRoboticsImage,
+              title: "Amazon Robotics - UX Internship",
+              date: "Jun - Aug 2024",
+            },
+            {
+              link: "/crashforces",
+              image: CrashForces,
+              title: "Startup - UX Designer",
+              date: "Oct 2023 - March 2024",
+            },
+            {
+              link: "/optum",
+              image: optumimg,
+              title: "Optum - SWE Internship",
+              date: "Jun - Aug 2023",
+            },
+            {
+              link: "/liberty",
+              image: Liberty,
+              title: "Liberty Mutual - TechStart Intern",
+              date: "Jun - Aug 2022",
+            },
+            {
+              link: "/logicloom",
+              image: Logic,
+              title: "Logic Loom - HCI Course Project",
+              date: "Jan - March 2024",
+            },
+            {
+              link: "/outlook",
+              image: outlookimg,
+              title: "Outlook - UXD Course Project",
+              date: "Aug - Dec 2023",
+            },
+          ].map((item, index) => (
+            <Col key={index} xs={12} sm={6} md={4} lg={4}>
+              <Card>
+                <CardActionArea component={Link} to={item.link}>
+                  <CardMedia component="img" height="170" image={item.image} alt={item.title} />
                   <CardContent>
-                    <Typography gutterBottom variant="h5" component="div">
-                      Amazon - UX Intern
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                      Jun - Aug 2024
-                    </Typography>
+                    <Typography gutterBottom variant="h5">{item.title}</Typography>
+                    <Typography variant="body2" color="text.secondary">{item.date}</Typography>
                   </CardContent>
                 </CardActionArea>
               </Card>
-            </Card>
-          </Col>
-          <Col>
-            <Card>
-            <Card sx={{ width: 400 }}>
-              <CardActionArea component={Link} to="/crashforces">
-                <CardMedia
-                  component="img"
-                  height="170"
-                  image={CrashForces}
-                  alt="crash forces"
-                />
-                <CardContent>
-                  <Typography gutterBottom variant="h5" component="div">
-                    Startup - UX Designer
-                  </Typography>
-                  <Typography variant="body2" color="text.secondary">
-                    Oct 2023 - March 2024
-                  </Typography>
-                </CardContent>
-              </CardActionArea>
-            </Card>
-          </Card>
-          </Col>
-          <Col>
-            <Card>
-            <Card sx={{ width: 400 }}>
-              <CardActionArea component={Link} to="/optum">
-                <CardMedia
-                  component="img"
-                  height="170"
-                  image={optumimg}
-                  alt="optum"
-                />
-                <CardContent>
-                  <Typography gutterBottom variant="h5" component="div">
-                    Optum - SWE Intern
-                  </Typography>
-                  <Typography variant="body2" color="text.secondary">
-                    Jun - Aug 2023
-                  </Typography>
-                </CardContent>
-              </CardActionArea>
-            </Card>
-            </Card>
-          </Col>
-            </Row>
-        </div>
-        <div style={{ display: 'flex', gap: '5%', marginTop: '3%', justifyContent: 'center', paddingBottom: '5%' }}>
-        <Row xs={1} md={2} lg={3} className="g-4">
-        <Col>
-          <Card>
-          <Card sx={{ width: 400 }}>
-            <CardActionArea  component={Link} to="/liberty">
-              <CardMedia
-                component="img"
-                height="150"
-                image={Liberty}
-                alt="Liberty Mutual"
-              />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                  Liberty Mutual - TechStart Intern
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  Jun - Aug 2022
-                </Typography>
-              </CardContent>
-            </CardActionArea>
-          </Card>
-          </Card>
-        </Col>
-        <Col>
-        <Card>
-          <Card sx={{ width: 400 }}>
-            <CardActionArea component={Link} to="/logicloom">
-              <CardMedia
-                component="img"
-                height="150"
-                image={Logic}
-                alt="Logic Loom"
-              />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                  Logic Loom - HCI Course Project
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  Jan - March 2024
-                </Typography>
-              </CardContent>
-            </CardActionArea>
-          </Card>
-          </Card>
-        </Col>
-        <Col>
-        <Card>
-          <Card sx={{ width: 400 }}>
-            <CardActionArea component={Link} to="/outlook">
-              <CardMedia
-                component="img"
-                height="150"
-                image={outlookimg}
-                alt="Outlook"
-              />
-              <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
-                  Outlook - UXD Course Project
-                </Typography>
-                <Typography variant="body2" color="text.secondary">
-                  Aug - Dec 2023
-                </Typography>
-              </CardContent>
-            </CardActionArea>
-          </Card>
-          </Card>
-          </Col>
-          </Row>
-        </div>
+            </Col>
+          ))}
+        </Row>
       </div>
-      <footer>
+      {/* <footer>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100px' }}>
           <img src={logo2} style={{ width: '5%' }} alt="logo" />
         </div>
-      </footer>
+      </footer> */}
     </div>
   );
 };
@@ -250,6 +173,7 @@ const App = () => (
     <Route path="/gw24" element={<GW24 />} />
     <Route path="/unessay" element={<UnessayPage />} />
     <Route path="/crashforcespage" element={<CrashforcesPage />} />
+    <Route path="/workday" element={<WorkdayProject />} />
   </Routes></>
 );
 

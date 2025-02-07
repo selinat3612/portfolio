@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.6ec42ec8.css",
-    "main.js": "/portfolio/static/js/main.f2138c8e.js",
+    "main.js": "/portfolio/static/js/main.dfaa57db.js",
     "static/media/demo.mov": "/portfolio/static/media/demo.14a0dfb85c63a80ac26b.mov",
     "static/media/demo2.mp4": "/portfolio/static/media/demo2.735e0551f8da914327b9.mp4",
     "static/media/casestudy.jpg": "/portfolio/static/media/casestudy.53cd2182c0ae6d21b8df.jpg",
@@ -27,6 +27,7 @@
     "static/media/lmDesign.jpg": "/portfolio/static/media/lmDesign.46c45a6a34eb13b99d36.jpg",
     "static/media/atlas.jpg": "/portfolio/static/media/atlas.39f46c0c10be2c15f226.jpg",
     "static/media/LandingPage1.png": "/portfolio/static/media/LandingPage1.4aedf2293d8c2d3bd72d.png",
+    "static/media/logo2.png": "/portfolio/static/media/logo2.e2a6883700722570bb6f.png",
     "static/media/greekweek2023.png": "/portfolio/static/media/greekweek2023.368ee1b0ea18074c578d.png",
     "static/media/lowFId.png": "/portfolio/static/media/lowFId.04320b17fb2fc0ef3601.png",
     "static/media/ardesign.jpg": "/portfolio/static/media/ardesign.03d373058392760587f3.jpg",
@@ -59,10 +60,10 @@
     "static/media/amazon.png": "/portfolio/static/media/amazon.575f4d399149bbb894cc.png",
     "index.html": "/portfolio/index.html",
     "main.6ec42ec8.css.map": "/portfolio/static/css/main.6ec42ec8.css.map",
-    "main.f2138c8e.js.map": "/portfolio/static/js/main.f2138c8e.js.map"
+    "main.dfaa57db.js.map": "/portfolio/static/js/main.dfaa57db.js.map"
   },
   "entrypoints": [
     "static/css/main.6ec42ec8.css",
-    "static/js/main.f2138c8e.js"
+    "static/js/main.dfaa57db.js"
   ]
 }

@@ -9,15 +9,37 @@
 }
  */
 
+ * {
+  box-sizing: border-box;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
+/* .experience {
+  width: 100%;
+  min-height: 100vh;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white !important;
+  margin-top: 20vh;
+} */
+
 .experience {
-   background-color: #8e7cc3;
-   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; /* Ensures it starts at the top */
+  align-items: center; /* Centers content horizontally */
+  background-color: white !important;
+  padding: 5%;
 }
+
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -26,10 +48,10 @@
 }
 
 .workButton {
-  background-color: #7a68b0; /* Example color */
+  background-color: #7a68b0; 
   border-color: white;
-  border-style: solid; /* Set the border style */
-  border-width: 2px; /* Set the border thickness */
+  border-style: solid; 
+  border-width: 2px; 
   padding: 10px 20px;
   font-size: 16px;
   color: white;
@@ -128,7 +150,9 @@
 .container-fluid {
   padding-left: 15px;
   padding-right: 15px;
+  width: 100%;  /* Ensure the container uses full available width */
 }
+
 
 body, html {
   overflow-x: hidden;
@@ -150,12 +174,17 @@ body, html {
     margin-left: -5%;
   }
 
+  .me {
+    margin-top: -10%;
+  }
+
   .mainPage {
+    margin-top: 7%;
     display: flex;
     flex-direction: column;
-    margin-top: 15%;
     margin-left: 5%;
     margin-right: 5%;
+    width: 90%; 
   }
 
   .paragraph {
@@ -171,13 +200,7 @@ body, html {
     margin: 0 auto;
     padding: 2%;
   }
-
-  .experience {
-    padding-left: 5%; /* Reset padding on smaller screens */
-    padding-right: 5%; /* Reset padding on smaller screens */
-    background-color: white !important;
-  }
-
+  
   .section {
     flex-direction: column; /* Stack items vertically */
     align-items: center; /* Center align for smaller screens */
