@@ -84,11 +84,11 @@ const PlaySite = () => {
           <Gallery images={row2} rowHeight={400} enableImageSelection={false} onClick={handleClick}/>
         </div>
       </div>
-            <footer>
+            {/* <footer>
               <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100px' }}>
                 <img src={logo2} style={{ width: '5%' }} alt="logo" />
               </div>
-            </footer>
+            </footer> */}
     </div>
   );
 };

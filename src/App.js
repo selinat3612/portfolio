@@ -135,9 +135,9 @@ const MainContent = () => {
             <Col key={index} xs={12} sm={6} md={4} lg={4}>
               <Card>
                 <CardActionArea component={Link} to={item.link}>
-                  <CardMedia component="img" height="170" image={item.image} alt={item.title} />
+                  <CardMedia component="img" height="210" image={item.image} alt={item.title} />
                   <CardContent>
-                    <Typography gutterBottom variant="h5">{item.title}</Typography>
+                    <Typography gutterBottom variant="h6">{item.title}</Typography>
                     <Typography variant="body2" color="text.secondary">{item.date}</Typography>
                   </CardContent>
                 </CardActionArea>
@@ -146,7 +146,7 @@ const MainContent = () => {
           ))}
         </Row>
       </div>
-      {/* <footer>
+      {/* <footer style={{marginTop: '20%'}}>
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100px' }}>
           <img src={logo2} style={{ width: '5%' }} alt="logo" />
         </div>

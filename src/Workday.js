@@ -69,7 +69,7 @@ const WorkdayProject = () => {
         
         <div className="overview-section">
           <h2>What's Workday?</h2>
-          <p>
+          <p style={{fontWeight: 'lighter'}}>
             If you haven't had the pleasure of using Workday yet, I am jealous of you! Workday is a platform used by businesses, schools, and companies worldwide to help manage their HR. Though it's supposed to make employees' and students' lives easier, the UI is far from intuitive. This redesign targets everything that makes Workday iritable.
           </p>
         </div>
@@ -77,13 +77,13 @@ const WorkdayProject = () => {
         <h2 style={{textAlign: 'center', paddingTop: '2%', color: '#3069b5'}}>Layered navigation and human-centered design</h2>
         <div className="overview-section">
           <h2>Problem</h2>
-          <p>
+          <p style={{fontWeight: 'lighter'}}>
             Since Workday is used in daily life for work and school activities, it should never provide frustration as that could negatively correlate to our work/life balance-- and who would want that? I've used Workday first hand as a student to register for classes, pay for tuition, and see my schedule. I've also used it as an employee, logging my hours and checking my statements. The main problem is site navigation, it always takes way more clicks than necessary to get where you want. Workday is also lacking its personality! Other than changing the logo, it needs updated aesthetics to match the world today.
           </p>
         </div>
         <div className="overview-section">
           <h2>Project Vision</h2>
-          <p>
+          <p style={{fontWeight: 'lighter'}}>
             Taking a full step into UI design, I wanted to focus on Workday's visuals aesthetics and site heirarchy to develop new designs. My redesign focuses on a student's perspective, as finding resources as a student is cumbersome enough, an inviting and intuitive UI is crucial for Workday.
           </p>
         </div>
@@ -106,7 +106,7 @@ const WorkdayProject = () => {
         <div className="internship-container">
         <div className="overview-section">
           <h2>Low-Fidelity Wireframes</h2>
-          <p>
+          <p style={{fontWeight: 'lighter'}}>
             I started with low-fidelity wireframes of the exact page layout of current Workday. Then, started by adjusting the visual heirarchy to a more intuitive layout. From there, I also realized the site navigation could be improved, specifically for students, with one main navbar that they would go to for all their needs.
           </p>
           <div style={{display: 'flex', flexDirection: 'row', gap: '2%', justifyContent: 'center', marginTop: '5%', cursor: 'zoom-in'}}>
@@ -117,7 +117,7 @@ const WorkdayProject = () => {
         </div>
         <div className="overview-section">
           <h2>Design System</h2>
-          <p>
+          <p style={{fontWeight: 'lighter'}}>
             In creating a design system, I wanted a look that matched WPI's aesthetic but was still versatile enough for Workday to be used by companies worldwide. With this design system, Workday just has to change the primary color. 
           </p>
           <div style={{display: 'flex', flexDirection: 'row', gap: '2%', justifyContent: 'center', marginTop: '5%', cursor: 'zoom-in'}}>
@@ -126,7 +126,7 @@ const WorkdayProject = () => {
         </div>
         <div className="overview-section">
           <h2>High-Fidelity Wireframes</h2>
-          <p>
+          <p style={{fontWeight: 'lighter'}}>
             In my first role as a software engineering intern, I was timid in my capacity to contribute significantly to an ambitious MVP. Despite this, I successfully stepped up to address areas where I could fill gaps and make valuable contributions to the team. Having a background in Human-Computer Interaction, I was able to offer a user-centered mindset, working closely with the product team and meeting with the end user to gain feedback and develop further feature refinement. In gaining front-end experience, I also learned how to communicate with the back-end developers and learned the importance of fully understanding front and back end for effective collaboration, problem-solving, informed decision-making, and debugging.
           </p>
           <div style={{display: 'flex', flexDirection: 'row', gap: '2%', justifyContent: 'center', marginTop: '5%', cursor: 'zoom-in', paddingLeft: '5%', paddingRight: '5%'}}>
@@ -137,7 +137,7 @@ const WorkdayProject = () => {
         </div>
         <div className="overview-section">
           <h2 style={{color: '#3069b5'}}>Brownie Points!</h2>
-          <p>
+          <p style={{fontWeight: 'lighter'}}>
             Mobile wireframes to reflect changes.
           </p>
           <div style={{display: 'flex', flexDirection: 'row', gap: '2%', justifyContent: 'center', marginTop: '5%'}}>

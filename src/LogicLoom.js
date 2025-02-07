@@ -38,7 +38,7 @@ const LogicLoom = () => {
         </div>
         <div className="overview-section">
           <h2 style={{marginBottom: '2%'}}>Overview</h2>
-          <p>
+          <p style={{fontWeight: 'lighter'}}>
           Logic Loom, also called Loom, is an app that provides users with a one-stop platform that brings a diverse range of their daily puzzles and ensures that users never miss a day of their streak. The app would be a streamlined experience, promoting accessibility and intuitiveness, providing an enjoyable and relaxing puzzle experience to perfectly wind down your day. 
           </p>
         </div>
@@ -48,7 +48,7 @@ const LogicLoom = () => {
         </div>
         <div className="overview-section">
           <h2 style={{marginBottom: '2%'}}>User Problems and Research</h2>
-          <p>
+          <p style={{fontWeight: 'lighter'}}>
           Daily Wordle users who also frequent Sudoku, Connections, Word Hunt, and other logic games have to dig through many websites or apps just to play the game. 
 Streaks are also a stressful incentive. Especially in the Wordle world, where you are trying to compete with friends and show off your skills, the only existing reminders are the occasional texts from your friends and family. 
 But, what if you don't want do the Wordle in English? Maybe English isn't your first language or you're trying to learn a new language, there is no other way to play Wordle. 
@@ -75,18 +75,18 @@ Looking at statistics from a study in 2022, the age groups who are most likely t
           <div style={{display: 'flex', flexDirection: 'column'}}>
             <div style={{display: 'flex', flexDirection: 'row', gap: '10%'}}>
             <h5>Streaks </h5>
-            <p>User need: not losing streaks! Streaks are a huge driving factor to why players maintain a relationship with a game, platform, friends, etc. Users can set daily notifications and push notifications to their friends as a reminder!
+            <p style={{fontWeight: 'lighter'}}>User need: not losing streaks! Streaks are a huge driving factor to why players maintain a relationship with a game, platform, friends, etc. Users can set daily notifications and push notifications to their friends as a reminder!
             </p>
             </div>
             <div style={{display: 'flex', flexDirection: 'row', gap: '8%'}}>
             <h5>Multi-language </h5>
-            <p>User need: diversity. Most logic games are only available in English. By allowing users a multi-language feature, they can comfortably play in their native language or practice learning a new language! It allows users from around the world to play.
+            <p style={{fontWeight: 'lighter'}}>User need: diversity. Most logic games are only available in English. By allowing users a multi-language feature, they can comfortably play in their native language or practice learning a new language! It allows users from around the world to play.
             </p>
             </div>
           </div>
         </div>
         <h2 style={{marginBottom: '2%', marginTop: '5%'}}>User Testing</h2>
-        <p>To test the usability of my prototype, I focused on heuristic evaluation. Heuristic evaluation, developed by Jakob Nielsen, focuses on finding usability problems in a UI design. Here, a small set of evaluators examine the UI and independently check for compliance with heuristics. Neilsen's 10 heuristics are as follows: (H1) visibility of system status, (H2) match between system and real world, (H3) user control and freedom, (H4) consistency and standards, (H5) error prevention, (H6) recognition rather than recall, (H7) flexibility and efficiency of use, (H8) aesthetic and minimalist design, (H9) error recovery, (H10) help and documentation. 
+        <p style={{fontWeight: 'lighter'}}>To test the usability of my prototype, I focused on heuristic evaluation. Heuristic evaluation, developed by Jakob Nielsen, focuses on finding usability problems in a UI design. Here, a small set of evaluators examine the UI and independently check for compliance with heuristics. Neilsen's 10 heuristics are as follows: (H1) visibility of system status, (H2) match between system and real world, (H3) user control and freedom, (H4) consistency and standards, (H5) error prevention, (H6) recognition rather than recall, (H7) flexibility and efficiency of use, (H8) aesthetic and minimalist design, (H9) error recovery, (H10) help and documentation. 
         After conducting a heuristic evaluation on my prototype with 2 users, they both found different heuristics. Aggregating my findings, the prototype had the following heuristics:
         </p>
         <ul>• (H1) visibility - for friends to be on the front page and make the app a social-based app</ul>
@@ -101,13 +101,13 @@ Looking at statistics from a study in 2022, the age groups who are most likely t
         </div> */}
         <div className="overview-section">
           <h2 style={{marginBottom: '2%'}}>Final Prototype & Demo</h2>
-          <p>Based on feedback from the think-aloud, I iterated once more to improve the app overall and especially on error prevention. I demoed the prototype in my class, CS 3041 (Human-Computer Interaction), and received thoughtful feedback on my peers' thoughts. As a friendly competition between peers, after each demo, a student would have to fill out a Google Form rating the student's app in innovation, impactful-ness, design, effort, and overall excellence. I am happy to report that I was ranked #1 in all categories! 
+          <p style={{fontWeight: 'lighter'}}>Based on feedback from the think-aloud, I iterated once more to improve the app overall and especially on error prevention. I demoed the prototype in my class, CS 3041 (Human-Computer Interaction), and received thoughtful feedback on my peers' thoughts. As a friendly competition between peers, after each demo, a student would have to fill out a Google Form rating the student's app in innovation, impactful-ness, design, effort, and overall excellence. I am happy to report that I was ranked #1 in all categories! 
           </p>
         </div>
         <img src={mockup} style={{ width: '100%', marginTop: '5%'}}></img>
         <div className="overview-section" style={{marginBottom: '5%'}}>
           <h2 style={{marginBottom: '2%'}}>Future Work</h2>
-          <p>I am very proud of how my prototype came out. I think the app provides an easy experience and a hub for logic game lovers to escape and enjoy their games in one place. Coincidentally, the NYT app had a recent update that I did not check while making these wireframes. However, the app now looks very similar to the design techniques I used for Logic Loom. In the future, I would want to include a more interactive streak tracking screen. I think it would be cool to have a map that you follow around like in Candy Land or Mario Party and earn badges or advantages along the way.</p>
+          <p style={{fontWeight: 'lighter'}}>I am very proud of how my prototype came out. I think the app provides an easy experience and a hub for logic game lovers to escape and enjoy their games in one place. Coincidentally, the NYT app had a recent update that I did not check while making these wireframes. However, the app now looks very similar to the design techniques I used for Logic Loom. In the future, I would want to include a more interactive streak tracking screen. I think it would be cool to have a map that you follow around like in Candy Land or Mario Party and earn badges or advantages along the way.</p>
         </div>
         <PhotoGrid />
       </div>

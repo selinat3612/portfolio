@@ -188,11 +188,11 @@ body, html {
   }
 
   .paragraph {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .header {
-    font-size: 24px; /* Reduce the header size */
+    font-size: 26px; /* Reduce the header size */
   }
 
   .card {
