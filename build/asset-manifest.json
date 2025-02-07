@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a398299a.css",
-    "main.js": "/portfolio/static/js/main.96a1a91a.js",
+    "main.css": "/portfolio/static/css/main.a2350878.css",
+    "main.js": "/portfolio/static/js/main.0d62be87.js",
     "static/media/demo.mov": "/portfolio/static/media/demo.14a0dfb85c63a80ac26b.mov",
     "static/media/demo2.mp4": "/portfolio/static/media/demo2.735e0551f8da914327b9.mp4",
     "static/media/casestudy.jpg": "/portfolio/static/media/casestudy.53cd2182c0ae6d21b8df.jpg",
@@ -42,7 +42,7 @@
     "static/media/ioDesign.jpg": "/portfolio/static/media/ioDesign.5ca8883c053055f6e002.jpg",
     "static/media/Data.png": "/portfolio/static/media/Data.07e44999038ff778591f.png",
     "static/media/logicloom.png": "/portfolio/static/media/logicloom.f7ddb74dffbed3f6aa48.png",
-    "static/media/Homepage Mobile.png": "/portfolio/static/media/Homepage Mobile.ce039918321c8dbccc49.png",
+    "static/media/Homepage Mobile.png": "/portfolio/static/media/Homepage Mobile.86470224e21966489455.png",
     "static/media/workday.png": "/portfolio/static/media/workday.f9f4606bcb5fd7638341.png",
     "static/media/Homepage Mobile – 2.png": "/portfolio/static/media/Homepage Mobile – 2.9327d0222891a21080ab.png",
     "static/media/highFid.png": "/portfolio/static/media/highFid.b205f6cc9ea21ab7944f.png",
@@ -74,11 +74,11 @@
     "static/media/optum.png": "/portfolio/static/media/optum.14b2501bfa21ef529b66.png",
     "static/media/amazon.png": "/portfolio/static/media/amazon.575f4d399149bbb894cc.png",
     "index.html": "/portfolio/index.html",
-    "main.a398299a.css.map": "/portfolio/static/css/main.a398299a.css.map",
-    "main.96a1a91a.js.map": "/portfolio/static/js/main.96a1a91a.js.map"
+    "main.a2350878.css.map": "/portfolio/static/css/main.a2350878.css.map",
+    "main.0d62be87.js.map": "/portfolio/static/js/main.0d62be87.js.map"
   },
   "entrypoints": [
-    "static/css/main.a398299a.css",
-    "static/js/main.96a1a91a.js"
+    "static/css/main.a2350878.css",
+    "static/js/main.0d62be87.js"
   ]
 }
