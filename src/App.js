@@ -29,6 +29,7 @@ import MenuPage from './Menu';
 import PosterPage from './Poster';
 import GW23 from './GreekWeek23';
 import GW24 from './GreekWeek24';
+import GW25 from './GreekWeek25';
 import UnessayPage from './Unessay';
 import CrashforcesPage from './CF';
 import logo2 from './imgs/logo2.png';
@@ -171,6 +172,7 @@ const App = () => (
     <Route path="/poster" element={<PosterPage />} />
     <Route path="/gw23" element={<GW23 />} />
     <Route path="/gw24" element={<GW24 />} />
+    <Route path="/gw25" element={<GW25 />} />
     <Route path="/unessay" element={<UnessayPage />} />
     <Route path="/crashforcespage" element={<CrashforcesPage />} />
     <Route path="/workday" element={<WorkdayProject />} />

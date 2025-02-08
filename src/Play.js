@@ -9,6 +9,8 @@ import greekweek24 from './imgs/greekweek2024.png';
 import greekweek23 from './imgs/greekweek2023.png';
 import unessay from './imgs/SpanishUnessay.jpg';
 import poster from './imgs/TranPosterProject.jpg';
+import greekweek25 from './imgs/gw25Design.png';
+import GW25 from './GreekWeek25';
 import MenuItem from './Menu';
 import PosterPage from './Poster';
 import GW23 from './GreekWeek23';
@@ -45,24 +47,32 @@ const PlaySite = () => {
       case Crashforces:
         navigate('/crashforcespage');
         break;
+      case greekweek25:
+        navigate('/gw25');
+        break;
       default:
         console.log('No route found for this image');
     }
   };
 
   const row1 = [
-    { src: menu, width: 320, height: 400 },
-    { src: poster, width: 300, height: 212 }
+    {src: greekweek25, width: 400, height: 482},
+    { src: menu, width: 420, height: 500 }
   ];
 
   const row2 = [
-    { src: greekweek23, width: 250, height: 212 },
-    { src: greekweek24, width: 350, height: 212 }
+    { src: greekweek24, width: 280, height: 180 },
+    { src: unessay, width: 340, height: 212 }
   ];
 
   const row3 = [
-    { src: unessay, width: 340, height: 212 },
+    { src: poster, width: 350, height: 212 },
     { src: Crashforces, width: 230, height: 212 }
+
+  ];
+
+  const row4 = [
+    { src: greekweek23, width: 250, height: 212 },
   ];
 
   const galleryStyles = {
@@ -79,16 +89,12 @@ const PlaySite = () => {
           Course projects, designs, and fun
         </h3>
         <div style={galleryStyles}>
-          <Gallery images={row1} rowHeight={500} enableImageSelection={false} onClick={handleClick} />
-          <Gallery images={row3} rowHeight={500} enableImageSelection={false} onClick={handleClick}/>
-          <Gallery images={row2} rowHeight={400} enableImageSelection={false} onClick={handleClick}/>
+          <Gallery images={row1} rowHeight={650} enableImageSelection={false} onClick={handleClick} />
+          <Gallery images={row3} rowHeight={500} enableImageSelection={false} onClick={handleClick} />
+          <Gallery images={row2} rowHeight={500} enableImageSelection={false} onClick={handleClick} />
+          <Gallery images={row4} rowHeight={400} enableImageSelection={false} onClick={handleClick} />
         </div>
       </div>
-            {/* <footer>
-              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', height: '100px' }}>
-                <img src={logo2} style={{ width: '5%' }} alt="logo" />
-              </div>
-            </footer> */}
     </div>
   );
 };
