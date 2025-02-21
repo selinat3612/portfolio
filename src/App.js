@@ -102,12 +102,12 @@ const MainContent = () => {
               title: "Amazon Robotics - UX Internship",
               date: "Jun - Aug 2024",
             },
-            {
-              link: "/crashforces",
-              image: CrashForces,
-              title: "Startup - UX Designer",
-              date: "Oct 2023 - March 2024",
-            },
+            // {
+            //   link: "/crashforces",
+            //   image: CrashForces,
+            //   title: "Startup - UX Designer",
+            //   date: "Oct 2023 - March 2024",
+            // },
             {
               link: "/optum",
               image: optumimg,

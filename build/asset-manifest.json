@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.a2350878.css",
-    "main.js": "/portfolio/static/js/main.0d62be87.js",
+    "main.js": "/portfolio/static/js/main.6d388b3b.js",
     "static/media/demo.mov": "/portfolio/static/media/demo.14a0dfb85c63a80ac26b.mov",
     "static/media/demo2.mp4": "/portfolio/static/media/demo2.735e0551f8da914327b9.mp4",
     "static/media/casestudy.jpg": "/portfolio/static/media/casestudy.53cd2182c0ae6d21b8df.jpg",
@@ -21,6 +21,7 @@
     "static/media/converseInspo.jpg": "/portfolio/static/media/converseInspo.316c91c2bc2313355fb1.jpg",
     "static/media/mockup.jpg": "/portfolio/static/media/mockup.b6e0595f41342f08f42f.jpg",
     "static/media/atlasMockup.jpg": "/portfolio/static/media/atlasMockup.86b698475f68360f89a6.jpg",
+    "static/media/gw25Design.png": "/portfolio/static/media/gw25Design.e69d97faaeb56a162581.png",
     "static/media/topScreen.JPG": "/portfolio/static/media/topScreen.a40dc2b79374094422ef.JPG",
     "static/media/loomMockup.jpg": "/portfolio/static/media/loomMockup.c1f4f407dc8cf3c7a2b2.jpg",
     "static/media/moodboard.png": "/portfolio/static/media/moodboard.95e70f1512e8f5c8f307.png",
@@ -50,6 +51,7 @@
     "static/media/LandingPage2.png": "/portfolio/static/media/LandingPage2.2bd3e0c37819c22d6824.png",
     "static/media/cf2.png": "/portfolio/static/media/cf2.1c7c2e1eebf06b3d5fcc.png",
     "static/media/analysis.png": "/portfolio/static/media/analysis.39db279d15d0b160b241.png",
+    "static/media/gompei.jpg": "/portfolio/static/media/gompei.43458c3e2f5a957ce0ce.jpg",
     "static/media/Homepage Mobile – 1.png": "/portfolio/static/media/Homepage Mobile – 1.cbb2d5cce17f7d7f41c7.png",
     "static/media/Design System.png": "/portfolio/static/media/Design System.e01c363f5171e5bdef84.png",
     "static/media/Planning & Registration.png": "/portfolio/static/media/Planning & Registration.a5b672556c6696cda7a9.png",
@@ -67,6 +69,7 @@
     "static/media/logic3.png": "/portfolio/static/media/logic3.94acfec526190af85093.png",
     "static/media/logic1.png": "/portfolio/static/media/logic1.ee4196f2f16b98663dd9.png",
     "static/media/neclas.jpg": "/portfolio/static/media/neclas.133014c02efa99913ccb.jpg",
+    "static/media/comicshirt.jpg": "/portfolio/static/media/comicshirt.5123e920e5a5285c5b9b.jpg",
     "static/media/libertymutual.png": "/portfolio/static/media/libertymutual.fc00cea5cc62418d779f.png",
     "static/media/logic8.png": "/portfolio/static/media/logic8.e22f8a24c82c004168d2.png",
     "static/media/CrashForcesLogo1.png": "/portfolio/static/media/CrashForcesLogo1.4ede497fe0cae5b47b53.png",
@@ -75,10 +78,10 @@
     "static/media/amazon.png": "/portfolio/static/media/amazon.575f4d399149bbb894cc.png",
     "index.html": "/portfolio/index.html",
     "main.a2350878.css.map": "/portfolio/static/css/main.a2350878.css.map",
-    "main.0d62be87.js.map": "/portfolio/static/js/main.0d62be87.js.map"
+    "main.6d388b3b.js.map": "/portfolio/static/js/main.6d388b3b.js.map"
   },
   "entrypoints": [
     "static/css/main.a2350878.css",
-    "static/js/main.0d62be87.js"
+    "static/js/main.6d388b3b.js"
   ]
 }
